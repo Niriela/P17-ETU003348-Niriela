@@ -1,0 +1,68 @@
+<web-app xmlns="http://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://jakarta.ee/xml/ns/jakartaee
+                             http://jakarta.ee/xml/ns/jakartaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>FormCredit</servlet-name>
+        <servlet-class>servlets.FormCredit</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>FormCredit</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CreditServlet</servlet-name>
+        <servlet-class>servlets.CreditServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name> CreditServlet</servlet-name>
+        <url-pattern>/CreditServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FormDepenses</servlet-name>
+        <servlet-class>servlets.FormDepenses</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name> FormDepenses</servlet-name>
+        <url-pattern>/FormDepenses</url-pattern>
+    </servlet-mapping>
+
+     <servlet>
+        <servlet-name>DepensesServlet</servlet-name>
+        <servlet-class>servlets.DepensesServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name> DepensesServlet</servlet-name>
+        <url-pattern>/DepensesServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FormListDepense</servlet-name>
+        <servlet-class>servlets.FormListDepense</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name> FormListDepense</servlet-name>
+        <url-pattern>/FormListDepense</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>servlets.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name> LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
